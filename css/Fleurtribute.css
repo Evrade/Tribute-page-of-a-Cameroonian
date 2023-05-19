@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding: 0;
+}
+/*start of navigation bar*/
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    background-color: rgba(219, 97, 52, 0.466);
+}
+ .logo{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    margin-right: auto;
+}
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+ ul li,a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+ }
+ ul a:hover{
+    color: rgba(219, 97, 52, 0.466);
+    background-color: white;
+    border-radius: 30px;
+ }
+ /*designing the button*/
+button .nav-link {
+   background-color: white;
+   color:black;
+}
+ button:hover{
+  background-color: black;
+  color: white;
+ }
+ /*end of button*/
+ 
+ /*start of first-section design*/
+ .proverb{
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+ }
+ .text h2{
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ .text p{
+    font-size: 23px;
+    letter-spacing: .4px;
+ }
+ /*end of first-section design*/
+
+ /*start of about design-properties*/
+ .picture{
+    margin-top: 3rem;
+ }
+ .pic{
+    align-content: center;
+    text-align: center;
+ }
+ .pic img{
+    border-radius: 50%;
+    height: 350px;
+    width: 29%;
+    border-color: rgba(219, 97, 52, 0.466);
+    border-width: 10px;
+    border-style: solid;
+ }
+ .pic h4{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ /*table*/
+ .table {
+    align-content: center;
+    text-align: center;
+    font-size: larger;
+ }
+ .table table{
+   width: 70%;
+    margin-left:6rem ;
+    margin-top: 2rem;
+ }
+ /*paragraph*/
+ .paragraph{
+    font-size: 18px;
+    gap: 1px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+ }
+ /*start of footer*/
+ footer{
+    background-color: rgba(219, 97, 52, 0.466);
+    color: black;
+    padding: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+ }
